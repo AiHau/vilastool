@@ -213,7 +213,9 @@ h3.title.product-feature {
 .col-12.col-sm-6.col-lg-3.gr_content {
     display: flex;
 }
-
+section.gr_product {
+    margin-bottom: 100px;
+}
 
 footer .sub_footer_socialite .gr_sub ul.sub-share{
 	display: inline-block;
@@ -265,7 +267,6 @@ footer .sub_footer_socialite .gr_sub ul.sub-share li a:hover{
 
 
 
-
 button.btn.btn-default {
     color: #ffff;
     border: 1px solid #FFF;
@@ -289,12 +290,18 @@ img.img-responsive.img_hot {
     position: absolute;
 }
 .group-category {
-    background-color: bisque;
+    background-color: #fff;
     padding: 20px 10px;
     border-radius: 15px;
     box-shadow: 2px 4px 8px rgba(16,69,138,0.7);
     margin-top: 30px;
 }
+.sub_img {
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+
 .sub_content {
     text-align: center;
 }
@@ -303,10 +310,30 @@ img.img-responsive.img_hot {
     font-weight: 700;
     color: #10458A;
 }
+.info.content:hover {
+    color: #ffbf0d;
+}
 .sub_content {
     text-align: center;
-    font-weight: 600;
-    color: red;
+    font-weight: 700;
+    color: #d11111;
+    font-size: 18px;
+    margin-bottom: 5px;
+    position: relative;
+    bottom: 5px;
+}
+.gr_con {
+
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #10458a;
+    font-weight: 300;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-height: 1.6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    ma
 }
 button.btn.btn-defaults.use {
     color: #fff;
@@ -317,6 +344,57 @@ button.btn.btn-defaults.bought {
     background: #ffb117;
     color: #fff;
     font-size: 13px;
+}
+
+
+
+.gr_info_product {
+	background-image:  -webkit-linear-gradient(0deg, #00195b 5%, #1a61a7 70%) ;
+	/*position: fixed;
+	width: 100%;
+	z-index: 99;*/
+	
+}
+.info_product {
+	padding-top: 70px;
+}
+.row.pro {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+img.img-responsive.img {
+    width: 359px;
+    height: auto;
+    margin-left: 90px;
+}
+img.img-responsive.img:hover {
+    width: 350px;
+    height: auto;
+    
+}
+.gr_info_product .sub_content {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: initial;
+	margin-top: 35px;
+}
+h2.title.pro {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+p.info.pro {
+    color: #fff;
+    font-weight: 500;
+}
+a.btn_view {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffbf0d;
+}
+a.btn_view:hover {
+    
+    margin-left: 13px;
 }
 /* lg */ 
 @media (min-width: 1331px) {
